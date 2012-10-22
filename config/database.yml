@@ -9,7 +9,7 @@ development:
   database: song_development
   pool: 5
   username: songman
-  password:
+  password: abc
   timeout: 5000
 
 # Warning: The database defined as "test" will be erased and
@@ -21,7 +21,7 @@ test:
   database: song_test
   pool: 5
   username: songman
-  password:
+  password: abc
   timeout: 5000
 
 production:
