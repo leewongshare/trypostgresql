@@ -1,8 +1,8 @@
 CarrierWave.configure do |config|
   config.fog_credentials = {
     :provider               => 'AWS',       # required
-    :aws_access_key_id      => 'AKIAJATC3NFPNG2KHO3A',       # required
-    :aws_secret_access_key  => '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',       # required
+    :aws_access_key_id      => ENV['S3_KEY'],       # required
+    :aws_secret_access_key  => ENV['S3_SECRET'],       # required
 
   }
   config.fog_directory  = 'songbucket'                     # required
