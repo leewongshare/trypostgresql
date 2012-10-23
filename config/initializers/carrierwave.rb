@@ -6,6 +6,6 @@ CarrierWave.configure do |config|
 
   }
   config.fog_directory  = 'songbucket'                     # required
-  config.fog_public     = false                                   # optional, defaults to true
+  config.fog_public     = false
 
 end
